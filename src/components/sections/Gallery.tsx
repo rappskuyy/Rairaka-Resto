@@ -5,31 +5,31 @@ import { Instagram, ExternalLink } from "lucide-react";
 
 const galleryImages = [
   {
-    src: "/rairakahome.webp",
+    src: "/",
     alt: "Cozy cafe interior",
     span: "col-span-2 row-span-2",
     mobileSpan: "col-span-2 row-span-2",
   },
   {
-    src: "pictabout.png",
+    src: "",
     alt: "Working at cafe",
     span: "col-span-1 row-span-1",
     mobileSpan: "col-span-1 row-span-1",
   },
   {
-    src: "/seatkopi.png",
+    src: "",
     alt: "Coffee shop atmosphere",
     span: "col-span-1 row-span-1",
     mobileSpan: "col-span-1 row-span-1",
   },
   {
-    src: "/livemusic.png",
+    src: "",
     alt: "Live Music Area",
     span: "col-span-1 row-span-1",
     mobileSpan: "col-span-1 row-span-1",
   },
   {
-    src: "/hangout.png",
+    src: "",
     alt: "Friends hanging out",
     span: "col-span-1 row-span-1",
     mobileSpan: "col-span-1 row-span-1",
@@ -116,14 +116,13 @@ export default function Gallery() {
         {/* Instagram CTA */}
         <div className="animate-on-scroll animate-fade-in-up opacity-0 text-center mt-8 sm:mt-12">
           <a
-            href="https://instagram.com/rairakaresto"
+            href="https://instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-linear-to-r from-coksu to-coksu-dark text-white rounded-full text-sm sm:text-base font-medium hover:shadow-xl hover:shadow-coksu/25 transition-all duration-300 hover:scale-105 group"
           >
             <Instagram className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-12 transition-transform duration-300" />
-            Follow @rairakaresto
-          </a>
+            Follow @example    </a>
         </div>
       </div>
     </section>

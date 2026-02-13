@@ -7,7 +7,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Lokasi",
-    details: ["Jl. Taman Rekreasi Cimelati Nangklak No.49, Pasawahan, Kec. Cicurug", "Kab Sukabumi, Jawa Barat"],
+    details: ["Jl. Example", "Kab Sukabumi, Jawa Barat"],
   },
   {
     icon: Clock,
@@ -17,12 +17,12 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Reservasi",
-    details: ["0813-8913-6566", "via WhatsApp"],
+    details: ["0812345678", "via WhatsApp"],
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["rairakaresto@gmail.com"],
+    details: ["exampl@example.com"],
   },
 ];
 
@@ -98,7 +98,7 @@ export default function Contact() {
               </h4>
               <div className="flex gap-3 sm:gap-4">
                 <a
-                  href="https://instagram.com/rairakaresto"
+                  href="https://instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white flex items-center justify-center text-brown hover:bg-coksu hover:text-white transition-all duration-300"
@@ -106,7 +106,7 @@ export default function Contact() {
                   <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a
-                  href="https://wa.me/6281389136566"
+                  href="https://wa.me/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white flex items-center justify-center text-brown hover:bg-coksu hover:text-white transition-all duration-300"
@@ -214,9 +214,9 @@ export default function Contact() {
               <div className="text-center text-white px-4">
                 <MapPin className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 mx-auto mb-2 sm:mb-4" />
                 <p className="font-serif text-lg sm:text-xl lg:text-2xl font-semibold mb-1 sm:mb-2">
-                  Rairaka Resto
+                    Example
                 </p>
-                <p className="text-white/80 text-sm sm:text-base">Jl. Taman Rekreasi Cimelati Nangklak No.49, Pasawahan, Kec. Cicurug, Kab Sukabumi, Jawa Barat</p>
+                <p className="text-white/80 text-sm sm:text-base">Jl. Example No.123, Example City, Example Province</p>
               </div>
             </div>
           </div>

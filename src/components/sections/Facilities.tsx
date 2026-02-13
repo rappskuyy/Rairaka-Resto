@@ -48,20 +48,20 @@ const facilities = [
 
 const spaces = [
   {
-    title: "Saung AA",
+    title: "Indoor Cozy Area",
     description: "Area dengan suasana santai yang mendukung aktivitas kerja ringan, diskusi, atau kumpul keluarga sambil menikmati hidangan.",
-    image: "rairakahome.webp",
+    image: "",
     capacity: "50+ seats",
   },
   {
-    title: "Edleweiss Coffee",
+    title: "Outdoor Garden Space",
     description: "Open space dengan meja komunal dan individual. Area terbuka yang nyaman untuk nongkrong, makan bersama, atau menikmati kopi dan kebab daging murni.",
     image: "/pictabout.png",
     capacity: "15 seats",
   },
   {
-    title: "Kebab Daging Murni",
-    description: "Area khusus untuk menikmati kebab dengan daging murni berkualitas, disajikan hangat dan fresh. Cocok untuk makan cepat, takeaway, atau dinikmati langsung di edlewiss coffee dengan suasana santai.",
+    title: "Ramen Area",
+    description: "Area khusus untuk menikmati ramen, disajikan hangat dan fresh. Cocok untuk makan cepat, takeaway, atau dinikmati langsung di edlewiss coffee dengan suasana santai.",
     image: "/kdm.png",
     capacity: "8-12 people",
   },
@@ -140,7 +140,7 @@ export default function Facilities() {
               Pilih <span className="text-coksu">Space</span> Lo
             </h3>
             <p className="animate-on-scroll animate-fade-in-up animation-delay-200 opacity-0 text-brown text-sm sm:text-base">
-              Berbagai area di Rairaka Resto
+              Berbagai area di Warjep
             </p>
           </div>
 
@@ -185,7 +185,7 @@ export default function Facilities() {
               Hubungi kami via WhatsApp untuk reservasi meeting room atau area khusus untuk event 
             </p>
             <a
-              href="https://wa.me/6281389136566"
+              href="https://wa.me/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-coksu text-white rounded-full font-medium hover:bg-coksu-dark transition-all duration-300 hover:scale-105 text-sm sm:text-base"

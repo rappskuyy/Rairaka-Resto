@@ -92,7 +92,7 @@ export default function About() {
               Tempat Nongkrong yang Lo Cari
             </h3>
             <p className="text-brown text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
-              Rairaka Resto bukan cuma tempat makan biasa. Kita adalah "third place" — 
+              Warjep bukan cuma tempat makan biasa. Kita adalah "third place" — 
               tempat antara rumah dan kantor di mana lo bisa kerja produktif, ngobrol santai, 
               atau sekadar me-time dengan secangkir kopi hangat dan makanan yang lezat.
             </p>

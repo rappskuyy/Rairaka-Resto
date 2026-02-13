@@ -71,9 +71,9 @@ export default function Hero() {
 
         {/* Main Heading with letter animation effect */}
         <h1 className="animate-on-scroll animate-fade-in-up animation-delay-200 opacity-0 font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl text-white font-semibold leading-[1.15] sm:leading-[1.1] mb-6 sm:mb-8 tracking-tight">
-          <span className="block">Rairaka</span>
+          <span className="block">Warung</span>
           <span className="block mt-1 sm:mt-2 bg-linear-to-r from-coksu-light via-coksu to-coksu-light bg-clip-text text-transparent">
-            Resto
+            Jepang
           </span>
         </h1>
 
